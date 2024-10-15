@@ -11,9 +11,10 @@ h2,h3{
     border: 1px solid orange;
 }
 
-ul:first-child{
+ul > li {
     color: red;
 }
-ul:last-child{
+
+ul ul > li {
     color: green;
 }

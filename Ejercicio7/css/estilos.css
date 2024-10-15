@@ -1,3 +1,19 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+.especial{
+    color: blue;
+}
+#id{
+    background-color: gray;
+}
+h2,h3{
+    border: 1px solid orange;
+}
+
+ul:first-child{
+    color: red;
+}
+ul:last-child{
+    color: green;
+}

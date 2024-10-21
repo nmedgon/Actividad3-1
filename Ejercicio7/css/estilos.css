@@ -1,12 +1,15 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+
 .especial{
     color: blue;
 }
+
 #id{
     background-color: gray;
 }
+
 h2,h3{
     border: 1px solid orange;
 }
@@ -17,4 +20,29 @@ ul > li {
 
 ul ul > li {
     color: green;
+}
+
+img{
+    width: 100px;
+}
+
+p > img {
+    border: 5px solid black;
+}
+
+img[alt="segunda"] {
+    border: 5px solid red;
+}
+
+/**
+No he conseguido hacerlo como pide el ejercicio, 
+Los encabezados h3 que están justo antes de un párrafo tendrán un color de fondo rosa.
+Le he aplicado una clase
+**/
+.antes{
+    background-color: pink;
+}
+
+p + h3{
+    background-color: blue;
 }

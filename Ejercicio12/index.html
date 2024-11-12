@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
+
+    <form action="">
+
+            <fieldset required>
+                <legend>Datos personales</legend>
+                Nombre:
+                <input type="text" placeholder="Su nombre"><br>
+                Correo electrónico:
+                <input type="text" required placeholder="nombre@servidor">
+            </fieldset>
+            <fieldset>
+                <legend>Datos del proyecto</legend>
+                Breve descripción del proyecto: <br>
+                <textarea name="" id=""></textarea><br>
+
+                Estado actual del proyecto: <br>
+                <input type="radio">En planteamiento
+                <input type="radio" name="" id="">En planificación
+                <input type="radio" name="" id="">En ejecución
+                <input type="radio" name="" id="">Ya finalizado
+                <br>
+                Presupuesto aproximado (en €):
+                <input type="text">
+
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>

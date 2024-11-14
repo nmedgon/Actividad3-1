@@ -1,16 +1,15 @@
-
-
 .titulo{
     background-color: #1E364D;
     display: flex;
     padding: 1%;
     color: white;
+    align-items: center;
+    font-size: 25px;
 }
 
 .titulo img{
     width: 5%;
 }
-
 
 nav ul{
     display: flex;
@@ -18,17 +17,28 @@ nav ul{
     margin-top: 1px;
     color: white;
 }
+
 nav ul li{
     padding: 1%;
 }
 
+nav ul li:hover{
+    background-color: #1E364D;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 main{
     display: flex;
+    justify-content: space-around;
 }
 
 main div{
     border: 1px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0px 0px 5px gray;
     margin: 3%;
     padding: 1%;
@@ -36,20 +46,56 @@ main div{
 
 main img{
     width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgcss{
+    width: 40%;
+}
+
+main div h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+  
+main div p {
+    font-size: 14px;
+    color: #555;
+}
+
+main div:hover{
+    box-shadow: 0px 0px 10px gray;
 }
 
 footer{
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
+    margin: 0 auto;
     background-color: #16283D;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 13px;
 }
+
 footer img{
     width:50px;
+}
+
+footer img:hover{
+    filter: drop-shadow(0 0px 5px rgb(255, 255, 255));
+}
+
+footer p{
+    padding: 5px;
+    font-style: italic;
 }
